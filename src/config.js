@@ -1,1 +1,1 @@
-export const API = import.meta.env.API || "http://192.168.1.7:5000"
+export const API = import.meta.env.VITE_API || "https://testing-seeh.onrender.com";
