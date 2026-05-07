@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { usePlayer } from "./PlayerContext";
 
-const API = "http://192.168.1.7:5000";
+import { API } from "./config";
 
 const Album = ({ browseId, setPage }) => {
     const [album, setAlbum] = useState(null);
