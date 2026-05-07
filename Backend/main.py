@@ -13,8 +13,8 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+ytmusic = YTMusic("browser.json")
 
-ytmusic = YTMusic()
 
 
 @app.get("/home")
